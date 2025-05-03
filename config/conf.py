@@ -1,0 +1,1 @@
+URL_ARENA_RPA = r"https://arenarpa.com/crazy-form"

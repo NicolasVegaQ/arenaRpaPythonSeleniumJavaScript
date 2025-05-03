@@ -1,0 +1,31 @@
+mi_proyecto_rpa/
+│
+├── main.py                       # Script principal (orquestador)
+├── config/
+│   └── settings.py              # Configuraciones generales (URLs, tiempo de espera, paths)
+├── pages/
+│   ├── login_page.py            # Lógica de inicio de sesión (Page Object Model)
+│   └── dashboard_page.py        # Lógica de otra sección de la web
+├── flows/
+│   ├── flujo_login.py           # Flujo que usa login_page
+│   └── flujo_descarga.py        # Flujo que navega y descarga archivos
+├── utils/
+│   ├── logger.py                # Registro de logs
+│   └── tools.py                 # Funciones reutilizables (esperas, capturas, etc.)
+├── drivers/
+│   └── driver_setup.py          # Instancia de WebDriver con opciones
+├── output/
+│   └── archivos/                # Carpeta donde se guardan descargas, capturas, etc.
+└── README.md               
+
+echo "# arenaRpaPythonSeleniumJavaScript" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/NicolasVegaQ/arenaRpaPythonSeleniumJavaScript.git
+git push -u origin main
+
+git remote add origin https://github.com/NicolasVegaQ/arenaRpaPythonSeleniumJavaScript.git
+git branch -M main
+git push -u origin main
